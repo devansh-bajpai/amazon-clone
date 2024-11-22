@@ -1,0 +1,24 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.headerBox {
+    height: 60px;
+    width: 100%;
+    background-color: #0F1111;
+    display: flex;
+}
+
+#mainLogoImg{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+#mainLogo {
+    height: 50px;
+    width: 10%;
+    margin-top: 5px;
+    margin-left: 8px;
+}
