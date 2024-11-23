@@ -23,7 +23,21 @@
                 </a>
                 
             </div>
-            <div id="searchBar"></div>
+
+            <div id="searchBar">
+                <select name="items" id="selectionDropdown">
+                    <option value="all categories">All</option>
+                    <option value="alexa skills">Alexa Skills</option>
+                    <option value="amazon devices">Amazon Devices</option>
+                    <option value="amazon fashion">Amazon Fashion</option>
+                    <option value="amazon pharmacy">Amazon Pharmacy</option>
+                </select>
+                <!-- <textarea name="search bar" id="searchBarArea">Search Amazon.in</textarea> -->
+                <input type="text" placeholder="Search Amazon.in" id="searchBarArea">
+                <button id="searchButton">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
             <div id="langSelector"></div>
             <div id="login"></div>
             <div id="orders"></div>

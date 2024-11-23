@@ -59,3 +59,49 @@ body {
     font-size: 13px;
     color: white;
 }
+
+
+#searchBar{
+    height: 50px;
+    width: 42%;
+    /* background-color: yellow; */
+    margin-top: 5px;
+}
+
+#selectionDropdown {
+    height: 90%;
+    width: 60px;
+    position: relative;
+    top: 2px;
+    left: 4px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+#searchBarArea {
+    height: 40px;
+    width: 500px;
+    resize: none;
+    position: relative;
+    top:2.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    
+}
+
+#searchButton {
+    height: 46px;
+    width: 55px;
+    position: relative;
+    right: 4px;
+    top: 1px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    font-size: 15px;
+    border: 1px solid black;
+    background-color: rgb(231, 182, 103);
+}
