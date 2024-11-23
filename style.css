@@ -63,7 +63,7 @@ body {
 
 #searchBar{
     height: 50px;
-    width: 42%;
+    width: 48%;
     /* background-color: yellow; */
     margin-top: 5px;
 }
@@ -77,13 +77,15 @@ body {
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: rgb(214, 214, 214);
     
 }
 
 
 #searchBarArea {
     height: 40px;
-    width: 500px;
+    width: 600px;
     resize: none;
     position: relative;
     top:2.5px;
@@ -98,10 +100,61 @@ body {
     width: 55px;
     position: relative;
     right: 4px;
-    top: 1px;
+    top: 2px;
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
-    font-size: 15px;
+    font-size: 18px;
     border: 1px solid black;
     background-color: rgb(231, 182, 103);
+}
+
+#langSelector {
+    height: 45px;
+    width: 60px;
+    /* background-color: yellow; */
+    position: relative;
+    top: 7px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+#languageButton {
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    display: flex;
+    text-decoration: none;
+    /* background-color: #0F1111; */
+    
+}
+
+#indianFlagLogoImg {
+    height: 28px;
+    width: 22px;
+    object-fit: contain;
+    
+    position: relative;
+    top: 7px;
+    margin-right: 2px;
+    
+}
+
+#eng{
+    margin: 0%;
+    padding: 0%;
+    font-size: 14px;
+    width: 20px;
+    position: relative;
+    top: 13px;
+    left: 2px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 2px;
+}
+
+#angleDownIcon {
+    color: rgb(128, 128, 128);
+    position: relative;
+    top: 15px;
+   left: 2px;
 }
