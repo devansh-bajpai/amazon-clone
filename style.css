@@ -150,6 +150,7 @@ body {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-right: 2px;
+    height: 20px;
 }
 
 #angleDownIcon {
@@ -157,4 +158,140 @@ body {
     position: relative;
     top: 15px;
    left: 2px;
+}
+
+#login {
+    height: 45px;
+    width: 150px;
+    /* background-color: yellow; */
+    margin-left: 20px;
+
+    position: relative;
+    top: 8px;
+}
+
+#loginButton {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+
+}
+
+#helloSignIn {
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    display:inline-block;
+    font-weight: 400;
+    color: white;
+}
+
+#accounts {
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: 2px;
+    left: 5px;
+    display: inline-block;
+    font-weight:900;
+    color: white;
+    
+}
+
+#angleDownIcon2 {
+    position: relative;
+    top: 4px;
+    left: 3px;
+    color: white;
+}
+
+#orders {
+    height: 45px;
+    width: 100px;
+    /* background-color: yellow; */
+    position: relative;
+    top: 8px;
+}
+
+#ordersButton {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+#returns {
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: 7px;
+    left: 12px;
+    font-weight: 400;
+    color: white;
+}
+
+#andOrders {
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    position: relative;
+    top: 7px;
+    left: 12px;
+    color: white;
+}
+
+#cart {
+    height: 45px;
+    width: 80px;
+    /* background-color: yellow; */
+    position: relative;
+    top: 8px;
+}
+
+#cartButton {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+#cartIcon {
+    margin: 0%;
+    padding: 0%;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 7px;
+    
+
+}
+
+#cartText {
+    margin: 0%;
+    padding: 0%;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 9px;
+    color: white;
+}
+
+#cartCounter {
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+    color: orange;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    left: 14px;
+    text-shadow: 0.5px 0.5px 1px black;
 }
