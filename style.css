@@ -295,3 +295,41 @@ body {
     left: 14px;
     text-shadow: 0.5px 0.5px 1px black;
 }
+
+
+.extraHeaderBox {
+    height: 30px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    background-color: #1f2121;
+
+    display: flex;
+    
+}
+
+.extraHeaderBoxItems {
+    margin-right: 10px;
+    margin-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding-top: 5px;
+    font-size: 13px;
+    color: white;
+
+}
+
+.sliderBox {
+    width: 100%;
+    height: 615px;
+    padding: 0%;
+    margin: 0%;
+    background-color: yellow;
+}
+
+#sliderBoxCard1 {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
+}
