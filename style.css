@@ -401,3 +401,67 @@ body {
     bottom: 8px;
     right: 20px;
 }
+
+.lowestFooter {
+    height: 200px;
+    width: 100%;
+    background-color: #131A22;
+    margin: 0%;
+    padding: 0%;
+    /* display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center; */
+}
+
+.lowestFooterContainer {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+.lowestFooterRow {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lowestFooterRow1Items {
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.lowestFooterRow2Items {
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.lowestFooterRow3Items {
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.lowestFooterRow4Items {
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.subheadingsLowestFooter {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: 10px;
+    padding: 0%;
+    margin: 0%;
+}
